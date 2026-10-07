@@ -39,8 +39,8 @@ class P11CDashboardFasesTest extends TestCase
         $this->actingAs($usuario)
             ->get('/dashboard')
             ->assertOk()
-            ->assertSee('Control de Desarrollo y CertificaciÃ³n')
-            ->assertSee('Alcance maestro F0â€“F15')
+            ->assertSee('Control de Desarrollo y Certificaci&oacute;n', false)
+            ->assertSee('Alcance maestro F0-F15')
             ->assertSee('16 fases registradas')
             ->assertSeeInOrder([
                 'F0',

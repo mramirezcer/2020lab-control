@@ -1,0 +1,870 @@
+{
+  "version": "P11C-R7-20261006",
+  "source": "2020LAB_V2_PLAN_ACTIVIDADES_POR_FASE_Y_PROGRAMADOR_V1",
+  "note": "La agrupación de procesos es nueva y fue autorizada; no altera los IDs de las actividades fuente.",
+  "phases": [
+    {
+      "key": "F0",
+      "name": "Fundaciones, Arquitectura y Modelo de Datos",
+      "processes": [
+        {
+          "key": "F0-P01",
+          "order": 1,
+          "name": "Gobierno técnico y plataforma de desarrollo",
+          "activity_ids": [
+            "F0-01",
+            "F0-02",
+            "F0-21",
+            "F0-23",
+            "F0-24",
+            "F0-25",
+            "F0-26"
+          ]
+        },
+        {
+          "key": "F0-P02",
+          "order": 2,
+          "name": "Modelo de datos e identidad técnica",
+          "activity_ids": [
+            "F0-03",
+            "F0-04",
+            "F0-05",
+            "F0-06",
+            "F0-07",
+            "F0-08",
+            "F0-09",
+            "F0-10"
+          ]
+        },
+        {
+          "key": "F0-P03",
+          "order": 3,
+          "name": "Infraestructura de datos y aislamiento multi-tenant",
+          "activity_ids": [
+            "F0-11",
+            "F0-12",
+            "F0-13"
+          ]
+        },
+        {
+          "key": "F0-P04",
+          "order": 4,
+          "name": "Autenticación y seguridad de acceso",
+          "activity_ids": [
+            "F0-14",
+            "F0-15",
+            "F0-16"
+          ]
+        },
+        {
+          "key": "F0-P05",
+          "order": 5,
+          "name": "Auditoría, observabilidad y continuidad",
+          "activity_ids": [
+            "F0-17",
+            "F0-18",
+            "F0-19",
+            "F0-20"
+          ]
+        },
+        {
+          "key": "F0-P06",
+          "order": 6,
+          "name": "Experiencia base y certificación de fundaciones",
+          "activity_ids": [
+            "F0-22",
+            "F0-27"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F1",
+      "name": "Alta de laboratorio",
+      "processes": [
+        {
+          "key": "F1-P01",
+          "order": 1,
+          "name": "Registro, validación y aprobación de alta",
+          "activity_ids": [
+            "F1-01",
+            "F1-02",
+            "F1-03",
+            "F1-04",
+            "F1-05",
+            "F1-06",
+            "F1-07",
+            "F1-08"
+          ]
+        },
+        {
+          "key": "F1-P02",
+          "order": 2,
+          "name": "Provisionamiento técnico del laboratorio",
+          "activity_ids": [
+            "F1-09",
+            "F1-10",
+            "F1-11",
+            "F1-12"
+          ]
+        },
+        {
+          "key": "F1-P03",
+          "order": 3,
+          "name": "Administrador inicial y seguridad de primer acceso",
+          "activity_ids": [
+            "F1-13",
+            "F1-14",
+            "F1-15"
+          ]
+        },
+        {
+          "key": "F1-P04",
+          "order": 4,
+          "name": "Centro de Control APS y preparación técnica",
+          "activity_ids": [
+            "F1-16",
+            "F1-17",
+            "F1-18"
+          ]
+        },
+        {
+          "key": "F1-P05",
+          "order": 5,
+          "name": "Onboarding inicial y certificación de alta",
+          "activity_ids": [
+            "F1-19",
+            "F1-20"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F2",
+      "name": "Configuración inicial y Mantenimiento",
+      "processes": [
+        {
+          "key": "F2-P01",
+          "order": 1,
+          "name": "Mantenimiento y estructura organizacional",
+          "activity_ids": [
+            "F2-01",
+            "F2-02"
+          ]
+        },
+        {
+          "key": "F2-P02",
+          "order": 2,
+          "name": "Catálogos técnicos maestros",
+          "activity_ids": [
+            "F2-03",
+            "F2-04",
+            "F2-05",
+            "F2-06",
+            "F2-07",
+            "F2-08",
+            "F2-09",
+            "F2-10",
+            "F2-11"
+          ]
+        },
+        {
+          "key": "F2-P03",
+          "order": 3,
+          "name": "Referencias, valores críticos y catálogos comerciales",
+          "activity_ids": [
+            "F2-12",
+            "F2-13",
+            "F2-14",
+            "F2-15",
+            "F2-16",
+            "F2-17"
+          ]
+        },
+        {
+          "key": "F2-P04",
+          "order": 4,
+          "name": "Equipamiento y configuración documental",
+          "activity_ids": [
+            "F2-18",
+            "F2-19",
+            "F2-20",
+            "F2-21"
+          ]
+        },
+        {
+          "key": "F2-P05",
+          "order": 5,
+          "name": "Administración reusable de catálogos",
+          "activity_ids": [
+            "F2-22",
+            "F2-23",
+            "F2-24"
+          ]
+        },
+        {
+          "key": "F2-P06",
+          "order": 6,
+          "name": "Wizard y configuración operativa inicial",
+          "activity_ids": [
+            "F2-25",
+            "F2-26",
+            "F2-27"
+          ]
+        },
+        {
+          "key": "F2-P07",
+          "order": 7,
+          "name": "Certificación LISTO PARA PRODUCCIÓN",
+          "activity_ids": [
+            "F2-28"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F3",
+      "name": "Paciente y recepción",
+      "processes": [
+        {
+          "key": "F3-P01",
+          "order": 1,
+          "name": "Paciente y expediente",
+          "activity_ids": [
+            "F3-01",
+            "F3-02"
+          ]
+        },
+        {
+          "key": "F3-P02",
+          "order": 2,
+          "name": "Contexto médico y comercial",
+          "activity_ids": [
+            "F3-03",
+            "F3-06"
+          ]
+        },
+        {
+          "key": "F3-P03",
+          "order": 3,
+          "name": "Agenda y recepción",
+          "activity_ids": [
+            "F3-04",
+            "F3-05"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F4",
+      "name": "Solicitud y operación comercial",
+      "processes": [
+        {
+          "key": "F4-P01",
+          "order": 1,
+          "name": "Selección y presupuesto",
+          "activity_ids": [
+            "F4-01",
+            "F4-02"
+          ]
+        },
+        {
+          "key": "F4-P02",
+          "order": 2,
+          "name": "Solicitud, orden y correcciones",
+          "activity_ids": [
+            "F4-03",
+            "F4-04",
+            "F4-05"
+          ]
+        },
+        {
+          "key": "F4-P03",
+          "order": 3,
+          "name": "Consentimientos y firma",
+          "activity_ids": [
+            "F4-06"
+          ]
+        },
+        {
+          "key": "F4-P04",
+          "order": 4,
+          "name": "Caja, cobro y descuentos",
+          "activity_ids": [
+            "F4-07",
+            "F4-08"
+          ]
+        },
+        {
+          "key": "F4-P05",
+          "order": 5,
+          "name": "Etiquetado y reimpresión",
+          "activity_ids": [
+            "F4-09"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F5",
+      "name": "Preanalítica",
+      "processes": [
+        {
+          "key": "F5-P01",
+          "order": 1,
+          "name": "Preparación y toma de muestra",
+          "activity_ids": [
+            "F5-01",
+            "F5-02"
+          ]
+        },
+        {
+          "key": "F5-P02",
+          "order": 2,
+          "name": "Recepción, rechazo y nueva toma",
+          "activity_ids": [
+            "F5-03",
+            "F5-04",
+            "F5-05"
+          ]
+        },
+        {
+          "key": "F5-P03",
+          "order": 3,
+          "name": "Alícuotas y distribución",
+          "activity_ids": [
+            "F5-06"
+          ]
+        },
+        {
+          "key": "F5-P04",
+          "order": 4,
+          "name": "Logística, rutas y servicio a domicilio",
+          "activity_ids": [
+            "F5-07"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F6",
+      "name": "Analítica y validación",
+      "processes": [
+        {
+          "key": "F6-P01",
+          "order": 1,
+          "name": "Resultado de trabajo y captura analítica",
+          "activity_ids": [
+            "F6-01",
+            "F6-02"
+          ]
+        },
+        {
+          "key": "F6-P02",
+          "order": 2,
+          "name": "Reglas analíticas y hojas de trabajo",
+          "activity_ids": [
+            "F6-03",
+            "F6-04"
+          ]
+        },
+        {
+          "key": "F6-P03",
+          "order": 3,
+          "name": "Interfaces de analizadores",
+          "activity_ids": [
+            "F6-05",
+            "F6-06"
+          ]
+        },
+        {
+          "key": "F6-P04",
+          "order": 4,
+          "name": "Microbiología",
+          "activity_ids": [
+            "F6-07"
+          ]
+        },
+        {
+          "key": "F6-P05",
+          "order": 5,
+          "name": "Revisión, valores críticos y validación",
+          "activity_ids": [
+            "F6-08",
+            "F6-09",
+            "F6-10"
+          ]
+        },
+        {
+          "key": "F6-P06",
+          "order": 6,
+          "name": "Certificación analítica",
+          "activity_ids": [
+            "F6-11"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F7",
+      "name": "Resultados y cierre clínico",
+      "processes": [
+        {
+          "key": "F7-P01",
+          "order": 1,
+          "name": "Informe clínico y entrega",
+          "activity_ids": [
+            "F7-01",
+            "F7-02",
+            "F7-03"
+          ]
+        },
+        {
+          "key": "F7-P02",
+          "order": 2,
+          "name": "Corrección, revalidación e histórico",
+          "activity_ids": [
+            "F7-04"
+          ]
+        },
+        {
+          "key": "F7-P03",
+          "order": 3,
+          "name": "Expediente longitudinal y comparabilidad",
+          "activity_ids": [
+            "F7-05",
+            "F7-06"
+          ]
+        },
+        {
+          "key": "F7-P04",
+          "order": 4,
+          "name": "Certificación Resultado-Informe-Entrega",
+          "activity_ids": [
+            "F7-07"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F8",
+      "name": "Postanalítica, Reportes y Explotación de Información",
+      "processes": [
+        {
+          "key": "F8-P01",
+          "order": 1,
+          "name": "Catálogo y seguridad de reportes",
+          "activity_ids": [
+            "F8-01",
+            "F8-02"
+          ]
+        },
+        {
+          "key": "F8-P02",
+          "order": 2,
+          "name": "Motor configurable de reportes",
+          "activity_ids": [
+            "F8-03",
+            "F8-04",
+            "F8-05",
+            "F8-06",
+            "F8-07"
+          ]
+        },
+        {
+          "key": "F8-P03",
+          "order": 3,
+          "name": "Reportes operativos y productividad",
+          "activity_ids": [
+            "F8-08",
+            "F8-09"
+          ]
+        },
+        {
+          "key": "F8-P04",
+          "order": 4,
+          "name": "Exportación, plantillas y auditoría",
+          "activity_ids": [
+            "F8-10",
+            "F8-11",
+            "F8-12",
+            "F8-13"
+          ]
+        },
+        {
+          "key": "F8-P05",
+          "order": 5,
+          "name": "Fuente de información gerencial",
+          "activity_ids": [
+            "F8-14"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F9",
+      "name": "Información gerencial, Estadísticas y KPI",
+      "processes": [
+        {
+          "key": "F9-P01",
+          "order": 1,
+          "name": "Catálogo y fórmulas de KPI",
+          "activity_ids": [
+            "F9-01",
+            "F9-02"
+          ]
+        },
+        {
+          "key": "F9-P02",
+          "order": 2,
+          "name": "Estadísticas, tendencias y comparativos",
+          "activity_ids": [
+            "F9-03",
+            "F9-04"
+          ]
+        },
+        {
+          "key": "F9-P03",
+          "order": 3,
+          "name": "Dashboards ejecutivos",
+          "activity_ids": [
+            "F9-05"
+          ]
+        },
+        {
+          "key": "F9-P04",
+          "order": 4,
+          "name": "KPI clínicos y de negocio",
+          "activity_ids": [
+            "F9-06",
+            "F9-07"
+          ]
+        },
+        {
+          "key": "F9-P05",
+          "order": 5,
+          "name": "Permisos y exportación ejecutiva",
+          "activity_ids": [
+            "F9-08"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F10",
+      "name": "Portales y comunicaciones",
+      "processes": [
+        {
+          "key": "F10-P01",
+          "order": 1,
+          "name": "Seguridad para usuarios externos",
+          "activity_ids": [
+            "F10-01"
+          ]
+        },
+        {
+          "key": "F10-P02",
+          "order": 2,
+          "name": "Portales externos",
+          "activity_ids": [
+            "F10-02",
+            "F10-03",
+            "F10-04"
+          ]
+        },
+        {
+          "key": "F10-P03",
+          "order": 3,
+          "name": "Publicación y notificaciones",
+          "activity_ids": [
+            "F10-05",
+            "F10-06"
+          ]
+        },
+        {
+          "key": "F10-P04",
+          "order": 4,
+          "name": "Papelería, documentos y descargas seguras",
+          "activity_ids": [
+            "F10-07",
+            "F10-08"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F11",
+      "name": "Relación comercial APS",
+      "processes": [
+        {
+          "key": "F11-P01",
+          "order": 1,
+          "name": "Mi Cuenta, planes y consumo",
+          "activity_ids": [
+            "F11-01",
+            "F11-02",
+            "F11-03"
+          ]
+        },
+        {
+          "key": "F11-P02",
+          "order": 2,
+          "name": "Servicios adicionales contratables",
+          "activity_ids": [
+            "F11-04"
+          ]
+        },
+        {
+          "key": "F11-P03",
+          "order": 3,
+          "name": "Pagos APS y conciliación",
+          "activity_ids": [
+            "F11-05",
+            "F11-06"
+          ]
+        },
+        {
+          "key": "F11-P04",
+          "order": 4,
+          "name": "Cliente fiscal y facturación APS",
+          "activity_ids": [
+            "F11-07",
+            "F11-08"
+          ]
+        },
+        {
+          "key": "F11-P05",
+          "order": 5,
+          "name": "Independencia de identidad técnica",
+          "activity_ids": [
+            "F11-09"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F12",
+      "name": "Facturación del laboratorio - Módulo adicional",
+      "processes": [
+        {
+          "key": "F12-P01",
+          "order": 1,
+          "name": "Activación y configuración fiscal",
+          "activity_ids": [
+            "F12-01",
+            "F12-02",
+            "F12-03"
+          ]
+        },
+        {
+          "key": "F12-P02",
+          "order": 2,
+          "name": "Integración PAC y emisión CFDI",
+          "activity_ids": [
+            "F12-04",
+            "F12-05",
+            "F12-06"
+          ]
+        },
+        {
+          "key": "F12-P03",
+          "order": 3,
+          "name": "Cancelación, sustitución y complementos",
+          "activity_ids": [
+            "F12-07",
+            "F12-08"
+          ]
+        },
+        {
+          "key": "F12-P04",
+          "order": 4,
+          "name": "Facturación a pacientes y convenios",
+          "activity_ids": [
+            "F12-09",
+            "F12-10"
+          ]
+        },
+        {
+          "key": "F12-P05",
+          "order": 5,
+          "name": "Estados fiscales y conciliación",
+          "activity_ids": [
+            "F12-11",
+            "F12-12"
+          ]
+        },
+        {
+          "key": "F12-P06",
+          "order": 6,
+          "name": "Independencia de Caja/Cobro",
+          "activity_ids": [
+            "F12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F13",
+      "name": "Interoperabilidad",
+      "processes": [
+        {
+          "key": "F13-P01",
+          "order": 1,
+          "name": "Modelo de referencia y contrato 2020Lab-2020Lab",
+          "activity_ids": [
+            "F13-01",
+            "F13-02"
+          ]
+        },
+        {
+          "key": "F13-P02",
+          "order": 2,
+          "name": "API, autenticación y mapeo",
+          "activity_ids": [
+            "F13-03",
+            "F13-04"
+          ]
+        },
+        {
+          "key": "F13-P03",
+          "order": 3,
+          "name": "Intercambio operativo e idempotencia",
+          "activity_ids": [
+            "F13-05",
+            "F13-06",
+            "F13-07"
+          ]
+        },
+        {
+          "key": "F13-P04",
+          "order": 4,
+          "name": "Trazabilidad e integración con terceros",
+          "activity_ids": [
+            "F13-08",
+            "F13-09"
+          ]
+        },
+        {
+          "key": "F13-P05",
+          "order": 5,
+          "name": "Certificación de interoperabilidad",
+          "activity_ids": [
+            "F13-10"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F14",
+      "name": "Migración y ciclo de vida",
+      "processes": [
+        {
+          "key": "F14-P01",
+          "order": 1,
+          "name": "Discovery y reglas de migración",
+          "activity_ids": [
+            "F14-01",
+            "F14-02"
+          ]
+        },
+        {
+          "key": "F14-P02",
+          "order": 2,
+          "name": "ETL, pruebas y conciliación",
+          "activity_ids": [
+            "F14-03",
+            "F14-04",
+            "F14-05"
+          ]
+        },
+        {
+          "key": "F14-P03",
+          "order": 3,
+          "name": "Cutover y rollback",
+          "activity_ids": [
+            "F14-06"
+          ]
+        },
+        {
+          "key": "F14-P04",
+          "order": 4,
+          "name": "Ciclo de vida operativo",
+          "activity_ids": [
+            "F14-07",
+            "F14-08",
+            "F14-09"
+          ]
+        },
+        {
+          "key": "F14-P05",
+          "order": 5,
+          "name": "Retención, exportación y cierre de piloto",
+          "activity_ids": [
+            "F14-10",
+            "F14-11"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F15",
+      "name": "Calidad e Inventario - Módulo adicional",
+      "processes": [
+        {
+          "key": "F15-P01",
+          "order": 1,
+          "name": "Activación contractual de Calidad/Inventario",
+          "activity_ids": [
+            "F15-01"
+          ]
+        },
+        {
+          "key": "F15-P02",
+          "order": 2,
+          "name": "Control de calidad y CAPA",
+          "activity_ids": [
+            "F15-02",
+            "F15-03",
+            "F15-04",
+            "F15-05"
+          ]
+        },
+        {
+          "key": "F15-P03",
+          "order": 3,
+          "name": "Modelo maestro de inventario",
+          "activity_ids": [
+            "F15-06"
+          ]
+        },
+        {
+          "key": "F15-P04",
+          "order": 4,
+          "name": "Movimientos, compras e inventario físico",
+          "activity_ids": [
+            "F15-07",
+            "F15-08",
+            "F15-09"
+          ]
+        },
+        {
+          "key": "F15-P05",
+          "order": 5,
+          "name": "Consumos, costos y alertas",
+          "activity_ids": [
+            "F15-10",
+            "F15-11"
+          ]
+        },
+        {
+          "key": "F15-P06",
+          "order": 6,
+          "name": "Independencia del módulo adicional",
+          "activity_ids": [
+            "F15-12"
+          ]
+        }
+      ]
+    }
+  ]
+}

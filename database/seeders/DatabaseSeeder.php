@@ -12,6 +12,7 @@ class DatabaseSeeder extends Seeder
             RolesProyectoSeeder::class,
             FasesProyectoSeeder::class,
             ProcesosProyectoSeeder::class,
+            ActividadesProyectoSeeder::class,
         ]);
     }
 }

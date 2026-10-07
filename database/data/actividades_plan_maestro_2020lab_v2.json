@@ -1,0 +1,1206 @@
+{
+  "version": "P11C-R11-20261006",
+  "source": "2020LAB_V2_PLAN_ACTIVIDADES_POR_FASE_Y_PROGRAMADOR_V1",
+  "actividades": [
+    {
+      "clave": "F0-01",
+      "nombre": "Crear repositorio GitHub, proyecto Laravel 13 y estrategia de ramas",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-02",
+      "nombre": "Definir arquitectura modular y ADR",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-03",
+      "nombre": "Diseñar modelo conceptual, lógico y físico inicial",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-04",
+      "nombre": "Construir ERD maestro inicial y reglas de normalización",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-05",
+      "nombre": "Definir PK/FK, índices, restricciones y convención de nombres",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-06",
+      "nombre": "Definir plantilla reproducible de BD por laboratorio",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-07",
+      "nombre": "Crear migrations base",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-08",
+      "nombre": "Crear seeders y política de códigos maestros estables",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-09",
+      "nombre": "Clasificar datos: precargados, valores base, vacíos y por definir",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-10",
+      "nombre": "Definir identidad técnica: ID, UUID, Clave de Laboratorio y nombre de BD",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-11",
+      "nombre": "Configurar MariaDB central y conexiones dinámicas",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-12",
+      "nombre": "Implementar Tenant Resolver",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-13",
+      "nombre": "Implementar aislamiento multi-tenant y pruebas LAB-A/LAB-B",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-14",
+      "nombre": "Implementar autenticación y autorización base",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-15",
+      "nombre": "Implementar MFA configurable",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-16",
+      "nombre": "Implementar dispositivos/navegadores autorizados opcionales",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-17",
+      "nombre": "Implementar auditoría estructurada",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-18",
+      "nombre": "Configurar secretos, logging y manejo común de errores",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-19",
+      "nombre": "Implementar observabilidad y health checks",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-20",
+      "nombre": "Diseñar y probar backup/restore por laboratorio",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F0-21",
+      "nombre": "Crear CI/CD",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-22",
+      "nombre": "Crear Design System base",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-23",
+      "nombre": "Preparar EC2 de integración/QA",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-24",
+      "nombre": "Configurar SSH/SFTP/SCP con llave PPK",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-25",
+      "nombre": "Crear scripts PowerShell de despliegue y rollback",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F0-26",
+      "nombre": "Definir convivencia Claude/ChatGPT-Codex y ownership",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F0-27",
+      "nombre": "Ejecutar Gate G0",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F1-01",
+      "nombre": "Modelar Prospecto, Responsable y Cliente Fiscal APS",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-02",
+      "nombre": "Construir registro reanudable",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-03",
+      "nombre": "Implementar verificación de correo/teléfono",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-04",
+      "nombre": "Versionar términos y consentimientos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-05",
+      "nombre": "Definir máquina de estados del registro",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-06",
+      "nombre": "Implementar validación documental/fiscal",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-07",
+      "nombre": "Definir condiciones comerciales iniciales",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-08",
+      "nombre": "Implementar aprobación de alta",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-09",
+      "nombre": "Generar identidad técnica inmutable",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-10",
+      "nombre": "Crear automáticamente BD del laboratorio",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-11",
+      "nombre": "Aplicar esquema inicial y seeders mínimos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-12",
+      "nombre": "Ejecutar precheck de aislamiento",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-13",
+      "nombre": "Crear Administrador General",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-14",
+      "nombre": "Implementar activación y primer acceso",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-15",
+      "nombre": "Aplicar política MFA/dispositivos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-16",
+      "nombre": "Construir ficha del laboratorio en Centro de Control APS",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-17",
+      "nombre": "Implementar estados de Preparación técnica",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F1-18",
+      "nombre": "Implementar rollback de Preparación técnica",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F1-19",
+      "nombre": "Redirigir primer acceso al Wizard",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F1-20",
+      "nombre": "Ejecutar Gate G1",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F2-01",
+      "nombre": "Definir módulo permanente de Mantenimiento",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F2-02",
+      "nombre": "Crear sucursal inicial MATRIZ y estructura de sucursales",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-03",
+      "nombre": "Precargar Tipos de muestra",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-04",
+      "nombre": "Precargar Recipientes",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-05",
+      "nombre": "Precargar Áreas de proceso",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-06",
+      "nombre": "Precargar Departamentos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-07",
+      "nombre": "Precargar Estudios base",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-08",
+      "nombre": "Precargar Perfiles base",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-09",
+      "nombre": "Precargar Analitos base",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-10",
+      "nombre": "Analizar catálogo de Métodos antes de cerrarlo",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-11",
+      "nombre": "Mantener catálogo de Unidades y definir administración restringida",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-12",
+      "nombre": "Diseñar Valores de referencia especializados por analito/sexo/edad/unidad/vigencia",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-13",
+      "nombre": "Definir posteriormente Valores críticos y su estructura",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-14",
+      "nombre": "Precargar Listas de precios y detalle separado de Estudios",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-15",
+      "nombre": "Definir reglas de Descuentos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-16",
+      "nombre": "Definir Convenios y Empresas/Clientes",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-17",
+      "nombre": "Precargar Médicos sólo cuando exista fuente maestra aprobada",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-18",
+      "nombre": "Crear Equipos inicialmente vacíos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-19",
+      "nombre": "Definir configuración de impresión",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-20",
+      "nombre": "Definir Firmas y Formatos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F2-21",
+      "nombre": "Crear valores base de logotipo, colores y configuración documental",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F2-22",
+      "nombre": "Construir CRUD reusable de catálogos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F2-23",
+      "nombre": "Implementar búsqueda, filtros, paginación y activar/desactivar",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F2-24",
+      "nombre": "Aplicar regla de no borrado físico para catálogos usados",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F2-25",
+      "nombre": "Construir Wizard inicial consumiendo catálogos de Mantenimiento",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F2-26",
+      "nombre": "Implementar organización, usuarios, roles y permisos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F2-27",
+      "nombre": "Configurar equipamiento/interfaces iniciales",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F2-28",
+      "nombre": "Implementar gate LISTO PARA PRODUCCIÓN",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F3-01",
+      "nombre": "Modelar paciente y expediente",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F3-02",
+      "nombre": "Implementar duplicados/unificación controlada",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F3-03",
+      "nombre": "Implementar médicos, empresas y convenios en operación",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F3-04",
+      "nombre": "Construir agenda y citas",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F3-05",
+      "nombre": "Construir recepción con/sin cita",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F3-06",
+      "nombre": "Integrar contexto comercial y médico en recepción",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F4-01",
+      "nombre": "Implementar selección de estudios/perfiles",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F4-02",
+      "nombre": "Implementar presupuesto",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F4-03",
+      "nombre": "Modelar solicitud/orden y estados",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F4-04",
+      "nombre": "Implementar alta/edición controlada de orden",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F4-05",
+      "nombre": "Implementar correcciones con auditoría",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F4-06",
+      "nombre": "Implementar consentimientos/firma",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F4-07",
+      "nombre": "Implementar caja, cobros, anticipos, parcialidades y crédito",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F4-08",
+      "nombre": "Implementar descuentos autorizados",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F4-09",
+      "nombre": "Implementar etiquetado y reimpresión controlada",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F5-01",
+      "nombre": "Definir reglas de preparación del paciente",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F5-02",
+      "nombre": "Implementar toma de muestra",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F5-03",
+      "nombre": "Implementar recepción preanalítica",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F5-04",
+      "nombre": "Definir motivos de rechazo/nueva toma",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F5-05",
+      "nombre": "Implementar rechazo y nueva toma",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F5-06",
+      "nombre": "Modelar alícuotas y distribución",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F5-07",
+      "nombre": "Implementar logística, rutas y servicio a domicilio",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F6-01",
+      "nombre": "Modelar resultado de trabajo y versionado",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F6-02",
+      "nombre": "Implementar colas/captura manual",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F6-03",
+      "nombre": "Implementar fórmulas, cálculos, diluciones y repeticiones",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F6-04",
+      "nombre": "Implementar hojas de trabajo",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F6-05",
+      "nombre": "Diseñar framework de interfaces de analizadores",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F6-06",
+      "nombre": "Implementar mapeo de pruebas/unidades/flags e idempotencia",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F6-07",
+      "nombre": "Implementar microbiología",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F6-08",
+      "nombre": "Implementar revisión técnica",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F6-09",
+      "nombre": "Definir e implementar valores críticos",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F6-10",
+      "nombre": "Implementar validación y firma",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F6-11",
+      "nombre": "Ejecutar gates analíticos",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F7-01",
+      "nombre": "Diseñar modelo/plantilla de informe clínico",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F7-02",
+      "nombre": "Implementar PDF, QR y verificación",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F7-03",
+      "nombre": "Implementar entrega impresa/digital",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F7-04",
+      "nombre": "Implementar corrección y revalidación sin sobrescribir histórico",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F7-05",
+      "nombre": "Implementar expediente longitudinal",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F7-06",
+      "nombre": "Implementar comparabilidad por unidades/rangos/métodos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F7-07",
+      "nombre": "Ejecutar gate Resultado->Informe->Entrega",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F8-01",
+      "nombre": "Definir catálogo de reportes operativos/postanalíticos",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F8-02",
+      "nombre": "Diseñar modelo de permisos por reporte/exportación",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F8-03",
+      "nombre": "Construir motor de filtros y consultas reutilizable",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-04",
+      "nombre": "Construir reporteador configurable",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-05",
+      "nombre": "Permitir selección de columnas",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-06",
+      "nombre": "Permitir agrupaciones y ordenamientos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-07",
+      "nombre": "Implementar filtros por fechas, paciente, médico, empresa, estudio, área, sucursal, usuario y estado",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-08",
+      "nombre": "Implementar reportes de resultados, pendientes, procesados y rechazados",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F8-09",
+      "nombre": "Implementar reportes de productividad y TAT",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F8-10",
+      "nombre": "Implementar exportación Excel",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-11",
+      "nombre": "Implementar exportación CSV/PDF",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-12",
+      "nombre": "Implementar plantillas de reporte por laboratorio",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-13",
+      "nombre": "Auditar generación y exportación",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F8-14",
+      "nombre": "Preparar fuente de datos para F9",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F9-01",
+      "nombre": "Definir catálogo de indicadores",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F9-02",
+      "nombre": "Definir fórmulas de KPI",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F9-03",
+      "nombre": "Implementar estadísticas y tendencias",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F9-04",
+      "nombre": "Implementar comparativos por periodo/sucursal/área",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F9-05",
+      "nombre": "Construir dashboards ejecutivos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F9-06",
+      "nombre": "Implementar KPI clínicos",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F9-07",
+      "nombre": "Implementar KPI operativos/comerciales/financieros",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F9-08",
+      "nombre": "Definir permisos y exportación ejecutiva",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-01",
+      "nombre": "Diseñar seguridad para usuarios externos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-02",
+      "nombre": "Implementar portal paciente",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-03",
+      "nombre": "Implementar portal médico",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-04",
+      "nombre": "Implementar portal empresa",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-05",
+      "nombre": "Restringir publicación a resultado final validado vigente",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F10-06",
+      "nombre": "Implementar notificaciones/plantillas",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-07",
+      "nombre": "Implementar papelería y documentos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F10-08",
+      "nombre": "Implementar descargas seguras y auditoría",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F11-01",
+      "nombre": "Modelar Mi Cuenta, planes y consumo",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F11-02",
+      "nombre": "Definir medición de consumo",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F11-03",
+      "nombre": "Implementar UI Mi Cuenta",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F11-04",
+      "nombre": "Implementar servicios adicionales contratables",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F11-05",
+      "nombre": "Integrar pagos APS: tarjeta/SPEI/OXXO",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F11-06",
+      "nombre": "Implementar webhooks/idempotencia/conciliación",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F11-07",
+      "nombre": "Modelar Cliente Fiscal APS con vigencias",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F11-08",
+      "nombre": "Implementar facturación APS",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F11-09",
+      "nombre": "Verificar independencia de identidad técnica",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F12-01",
+      "nombre": "Diseñar activación contractual del módulo de Facturación",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F12-02",
+      "nombre": "Modelar configuración fiscal del laboratorio",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F12-03",
+      "nombre": "Modelar receptores fiscales pacientes/empresas/convenios",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F12-04",
+      "nombre": "Integrar PAC/timbrador",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F12-05",
+      "nombre": "Implementar emisión CFDI",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F12-06",
+      "nombre": "Generar XML/PDF y conservar UUID",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F12-07",
+      "nombre": "Implementar cancelación y sustitución",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F12-08",
+      "nombre": "Implementar complementos de pago",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F12-09",
+      "nombre": "Implementar facturación a pacientes",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F12-10",
+      "nombre": "Implementar facturación a empresas/convenios",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F12-11",
+      "nombre": "Implementar estados fiscales e histórico",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F12-12",
+      "nombre": "Implementar conciliación fiscal",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F12-13",
+      "nombre": "Asegurar que desactivar el módulo no afecte Caja/Cobro",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F13-01",
+      "nombre": "Modelar laboratorios de referencia/maquila",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F13-02",
+      "nombre": "Definir contrato 2020Lab<->2020Lab",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F13-03",
+      "nombre": "Implementar API/webhooks y autenticación",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F13-04",
+      "nombre": "Implementar mapeo de estudios",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F13-05",
+      "nombre": "Enviar/recibir órdenes, estados y documentos",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F13-06",
+      "nombre": "Intercambiar resultados finales validados",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F13-07",
+      "nombre": "Implementar idempotencia/reproceso",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F13-08",
+      "nombre": "Implementar trazabilidad origen/destino/productor",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F13-09",
+      "nombre": "Integrar HIS/terceros mediante framework común",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F13-10",
+      "nombre": "Ejecutar gate de interoperabilidad",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F14-01",
+      "nombre": "Inventariar datos V1 por laboratorio",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F14-02",
+      "nombre": "Definir reglas MIGRAR/TRANSFORMAR/ARCHIVAR/NO-MIGRAR",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F14-03",
+      "nombre": "Construir ETL/herramientas de migración",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F14-04",
+      "nombre": "Ejecutar migraciones de prueba",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F14-05",
+      "nombre": "Conciliar conteos, históricos, documentos y datos fiscales",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F14-06",
+      "nombre": "Implementar cutover y rollback",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F14-07",
+      "nombre": "Implementar soporte operativo",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F14-08",
+      "nombre": "Implementar suspensión/reactivación",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F14-09",
+      "nombre": "Implementar cancelación/baja controlada",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F14-10",
+      "nombre": "Implementar retención/exportación final con manifiesto/hashes",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F14-11",
+      "nombre": "Cerrar piloto, regresión y documentación",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F15-01",
+      "nombre": "Diseñar activación contractual del módulo Calidad/Inventario",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F15-02",
+      "nombre": "Modelar control de calidad, lotes y corridas",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F15-03",
+      "nombre": "Implementar cálculos estadísticos y Westgard",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F15-04",
+      "nombre": "Implementar calibraciones/mantenimientos/temperaturas",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F15-05",
+      "nombre": "Implementar no conformidades y CAPA",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F15-06",
+      "nombre": "Modelar inventario, almacenes, productos, lotes y caducidades",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F15-07",
+      "nombre": "Implementar entradas, salidas, transferencias y Kardex",
+      "responsable_recomendado": "A",
+      "revision_apoyo": "B"
+    },
+    {
+      "clave": "F15-08",
+      "nombre": "Implementar compras y recepciones",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F15-09",
+      "nombre": "Implementar inventario físico y ajustes",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F15-10",
+      "nombre": "Implementar consumos/costos",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    },
+    {
+      "clave": "F15-11",
+      "nombre": "Implementar alertas de existencias/caducidad",
+      "responsable_recomendado": "B",
+      "revision_apoyo": "A"
+    },
+    {
+      "clave": "F15-12",
+      "nombre": "Verificar que ausencia del módulo no afecte núcleo del sistema",
+      "responsable_recomendado": "A+B",
+      "revision_apoyo": "A+B"
+    }
+  ]
+}

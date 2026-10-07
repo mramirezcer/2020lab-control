@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RolesProyectoSeeder::class,
             FasesProyectoSeeder::class,
+            ProcesosProyectoSeeder::class,
         ]);
     }
 }
